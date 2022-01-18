@@ -1,0 +1,3 @@
+<h2><%= @task.title %></h2>
+<h3>completado :<%= @task.completed %></h3>
+<%= link_to 'Eliminar', task_path(@task), method: :delete%>
